@@ -18,8 +18,9 @@ namespace EDI.Library.Models.Shared
         PacificTime,
         AlaskanTime,
         HawaiianTime,
-        AtlanticTime, //UTC-3      
-        NewfoundlandTime, //3.5   
-        LocalTime
+        AtlanticTime,    
+        NewfoundlandTime,
+        LocalTime,
+        CoordinatedUniversalTime //UTC
     }
 }
