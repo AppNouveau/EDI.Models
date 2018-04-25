@@ -7,20 +7,9 @@ using System.Threading.Tasks;
 
 namespace EDI.Library.Models.Shared
 {
-    /// <summary>    
-    /// </summary>
-    public enum TimeZoneType
-    {
-        Unknown,
-        EasternTime,
-        CentralTime,
-        MountainTime,
-        PacificTime,
-        AlaskanTime,
-        HawaiianTime,
-        AtlanticTime,    
-        NewfoundlandTime,
-        LocalTime,
-        CoordinatedUniversalTime //UTC
+    public enum OffsetType
+    {        
+        NotSpecified,
+        Utc        
     }
 }

@@ -7,8 +7,8 @@ namespace EDI.Library.Models.Shared
 {
     public class DateTimeSpecial
     {
-        public DateTime Value { get; set; }
+        public DateTimeOffset DateTime { get; set; }
         public TimeQualifierType TimeQualifier { get; set; }
-        public TimeZoneType TimeZone { get; set; }
+        public OffsetType OffsetType { get; set; }
     }
 }

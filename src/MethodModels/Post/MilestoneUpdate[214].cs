@@ -16,7 +16,7 @@ namespace EDI.Library.MethodModels.Post
         public int StopNumber { get; set; }        
         public List<ReferenceNumber> ReferenceNumbers { get; set; }
         public List<Stop> Stops { get; set; }
-        public DateTime MilestoneDateTime { get; set; } //Pass via UTC
+        public DateTimeOffset MilestoneDateTime { get; set; }
         public Part MilestoneTotalParts { get; set; }        
         public MilestoneEventType MilestoneEvent { get; set; } = MilestoneEventType.ArrivedAtPickupLocation;
         public Location MilestoneLocation { get; set; }
