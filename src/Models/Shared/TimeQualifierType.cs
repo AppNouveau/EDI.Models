@@ -12,8 +12,8 @@ namespace EDI.Library.Models.Shared
     public enum TimeQualifierType
     {        
         Earliest,     
-        Latest,
-       // Protect,
-        Scheduled
+        Latest,       
+        Scheduled,
+        NotSpecified
     }
 }
