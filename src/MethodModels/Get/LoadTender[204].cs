@@ -1,11 +1,11 @@
-﻿using EDI.Library.Models.LoadTender;
-using EDI.Library.Models.Shared;
+﻿using EDI.Models.LoadTender;
+using EDI.Models.Shared;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EDI.Library.MethodModels.Get
+namespace EDI.Models.MethodModels.Get
 {
     //public class GetLoadTender : BaseMethodModel
     //{

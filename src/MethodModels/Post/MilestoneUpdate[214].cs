@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
-using EDI.Library.Attributes;
-using EDI.Library.Models;
-using EDI.Library.Models.MilestoneUpdate;
-using EDI.Library.Models.Shared;
+using EDI.Models.Attributes;
+using EDI.Models;
+using EDI.Models.MilestoneUpdate;
+using EDI.Models.Shared;
 
-namespace EDI.Library.MethodModels.Post
+namespace EDI.Models.MethodModels.Post
 {
     public class MilestoneUpdate : BaseMethodModel
     {        

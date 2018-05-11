@@ -1,10 +1,10 @@
-﻿using EDI.Library.Models.LoadTender;
+﻿using EDI.Models.LoadTender;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EDI.Library.Models.Shared
+namespace EDI.Models.Shared
 {
     public class Entity
     {

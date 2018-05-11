@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EDI.Library.Models.LoadTender
+namespace EDI.Models.LoadTender
 {
     /// <summary>
     /// G61

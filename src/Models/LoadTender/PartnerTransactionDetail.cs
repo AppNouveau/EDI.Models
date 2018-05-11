@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EDI.Library.Models.LoadTender
+namespace EDI.Models.LoadTender
 {
     public class PartnerTransactionDetail
     {

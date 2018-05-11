@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EDI.Library.Models.Shared
+namespace EDI.Models.Shared
 {
     /// <summary>
     /// OID or AT8 (for stops) or L3 (for total)              

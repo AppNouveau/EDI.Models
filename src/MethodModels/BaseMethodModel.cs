@@ -1,10 +1,7 @@
-﻿using EDI.Library.Models.Shared;
+﻿using EDI.Models.Shared;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace EDI.Library.MethodModels
+namespace EDI.Models.MethodModels
 {
     public abstract class BaseMethodModel
     {

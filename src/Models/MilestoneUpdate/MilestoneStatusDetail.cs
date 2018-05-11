@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EDI.Library.Models.MilestoneUpdate
+namespace EDI.Models.MilestoneUpdate
 {
     /// <summary>
     /// Not in use

@@ -1,11 +1,11 @@
-﻿using EDI.Library.Models.Invoice;
-using EDI.Library.Models.Shared;
+﻿using EDI.Models.Invoice;
+using EDI.Models.Shared;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EDI.Library.MethodModels.Post
+namespace EDI.Models.MethodModels.Post
 {   
     public class Invoice : BaseMethodModel
     {        

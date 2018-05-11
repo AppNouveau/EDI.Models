@@ -1,11 +1,7 @@
-﻿using EDI.Library.Models.LoadTender;
-using EDI.Library.Models.Shared;
-using System;
+﻿using EDI.Models.LoadTender;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace EDI.Library.Models.Shared
+namespace EDI.Models.Shared
 {
     /// <summary>
     /// S5 Pick-Up/Delivery

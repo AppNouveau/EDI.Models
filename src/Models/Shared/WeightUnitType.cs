@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using EDI.Library.Attributes;
+using EDI.Models.Attributes;
 
-namespace EDI.Library.Models.Shared
+namespace EDI.Models.Shared
 {
     /// <summary>
     /// Ref:AT802; Id:188    

@@ -1,10 +1,6 @@
-﻿using EDI.Library.Attributes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using EDI.Models.Attributes;
 
-namespace EDI.Library.Models.LoadTender
+namespace EDI.Models.LoadTender
 {
     /// <summary>
     /// Ref:G6103; Id:365
