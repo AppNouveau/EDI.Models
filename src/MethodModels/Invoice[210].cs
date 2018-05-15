@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EDI.Models.MethodModels.Post
+namespace EDI.Models.MethodModels
 {   
     public class Invoice : BaseMethodModel
     {        

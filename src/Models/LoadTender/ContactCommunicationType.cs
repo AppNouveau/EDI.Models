@@ -15,6 +15,6 @@ namespace EDI.Models.LoadTender
         [EnumInfo("EM", "E-Mail")]
         EMail,
         [EnumInfo("AP", "Alternate Phone")]
-        AlternatePhone,
+        AlternatePhone        
     }
 }

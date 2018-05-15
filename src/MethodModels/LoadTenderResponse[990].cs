@@ -1,6 +1,6 @@
 ﻿using EDI.Models.LoadTenderResponse;
 
-namespace EDI.Models.MethodModels.Post
+namespace EDI.Models.MethodModels
 {
     public class LoadTenderResponse : BaseMethodModel
     {

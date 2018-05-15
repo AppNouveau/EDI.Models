@@ -14,6 +14,6 @@ namespace EDI.Models.Shared
         Earliest,     
         Latest,       
         Scheduled,
-        NotSpecified
+        UnSpecified
     }
 }

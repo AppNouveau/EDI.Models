@@ -8,7 +8,7 @@ using EDI.Models;
 using EDI.Models.MilestoneUpdate;
 using EDI.Models.Shared;
 
-namespace EDI.Models.MethodModels.Post
+namespace EDI.Models.MethodModels
 {
     public class MilestoneUpdate : BaseMethodModel
     {        

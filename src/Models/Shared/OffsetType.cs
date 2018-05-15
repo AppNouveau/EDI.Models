@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 namespace EDI.Models.Shared
 {
     public enum OffsetType
-    {        
-        NotSpecified,
-        Utc        
+    {
+        UnSpecified,
+        Utc,
+        ConvertToEntityLocalTZ        
     }
 }
