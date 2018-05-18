@@ -6,9 +6,8 @@ namespace EDI.Models.MethodModels
     public abstract class BaseMethodModel
     {
         public Guid TransactionGuid { get; set; } = Guid.NewGuid();
-
-        public Partner EDIPartner { get; set; }
+        public Partner Partner { get; set; }
         public string PartnerOrderNumber { get; set; }
-        public DateTime CreationDateTime { get; set; }
+        public DateTime CreationDateTime { get; set; } = DateTime.UtcNow;
     }
 }
