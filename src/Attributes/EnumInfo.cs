@@ -7,7 +7,7 @@ namespace EDI.Models.Attributes
 {
     public class EnumInfo : Attribute
     {
-        internal EnumInfo(string id, string name = "", string description = "")
+        public EnumInfo(string id, string name = "", string description = "")
         {
             Id = id;
             Name = name;
