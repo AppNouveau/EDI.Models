@@ -9,5 +9,6 @@ namespace EDI.Models.Shared
         public double Length { get; set; }
         public double Width { get; set; }
         public double Height { get; set; }
+        public DimensionUnitType DimensionUnit { get; set; }
     }
 }
