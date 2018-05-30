@@ -15,7 +15,9 @@ namespace EDI.Models.Shared
         public double Weight { get; set; }
         public double Quantity { get; set; }
         public WeightQualifierType WeightQualifier { get; set; }
-        public WeightUnitType WeightUnitCode { get; set; }
+        public WeightUnitType WeightUnitCode { get; set; }        
+        public Dimension Dimension { get; set; }
+        public Commodity Commodity { get; set; }
         public string BOL { get; set; }
         public string POD { get; set; }
     }
