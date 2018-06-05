@@ -22,5 +22,12 @@ namespace EDI.Models.Shared
         HouseNumber,
         MAWB,
         ForwarderSCAC,
+        CarrierReferenceNumber,
+        ScheduleReferenceNumber,
+        MutuallyDefined,
+        BillOfLadingNumber,
+        ShipperReferenceNumber,
+        CustomerNumber,
+        ConnectingCarrier,
     }
 }
