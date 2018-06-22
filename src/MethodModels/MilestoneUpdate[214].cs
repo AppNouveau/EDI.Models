@@ -21,7 +21,7 @@ namespace EDI.Models.MethodModels
         public MilestoneEventType MilestoneEvent { get; set; } = MilestoneEventType.ArrivedAtPickupLocation;
         public Location MilestoneLocation { get; set; }
         public MilestoneStatusReasonType MilestoneStatus { get; set; } = MilestoneStatusReasonType.Normal;
-        public BrokeredShipmentDetail BrokeredShipment { get; set; } //Only supplied if brokered
-        public string UnitID { get; set; }
+        public BrokeredShipmentDetail BrokeredShipment { get; set; }        
+        public AssetShipmentDetail AssetShipment { get; set; }
     }       
 }
