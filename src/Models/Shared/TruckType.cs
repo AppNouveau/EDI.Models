@@ -6,6 +6,7 @@ namespace EDI.Models.Models.Shared
 {
     public enum TruckType
     {
+        UnSpecified,
         CargoVan,
         SmallStraight,
         LargeStraight,
