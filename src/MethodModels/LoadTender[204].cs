@@ -1,4 +1,5 @@
 ﻿using EDI.Models.LoadTender;
+using EDI.Models.Models.Shared;
 using EDI.Models.Shared;
 using System;
 using System.Collections.Generic;
@@ -7,14 +8,8 @@ using System.Threading.Tasks;
 
 namespace EDI.Models.MethodModels
 {
-    //public class GetLoadTender : BaseMethodModel
-    //{
-    //    public List<LoadTender> LoadTenders { get; set; }
-    //}
-
     public class LoadTender : BaseMethodModel
     {
-        //HEADER - VALIDATED           
         public PartnerTransactionDetail PartnerTransactionDetail { get; set; }
 
         public MethodOfPaymentType MethodOfPayment { get; set; }
@@ -25,5 +20,7 @@ namespace EDI.Models.MethodModels
         public List<Entity> BuisnessEntities { get; set; } //BillTO Responsible RemitTo
         public List<Stop> Stops { get; set; }
         public Part TotalParts { get; set; }
+        public TruckType RecommendedTruckType { get; set; }
+        public decimal EstimatedTotalPay { get; set; }
     }
 }
