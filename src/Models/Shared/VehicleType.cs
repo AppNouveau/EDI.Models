@@ -7,11 +7,12 @@ namespace EDI.Models.Models.Shared
     public enum VehicleType
     {
         UnSpecified,
-        CargoVan,
+        CargoVan,        
         SmallStraight,
         LargeStraight,
         Tractor,
         FlatBed,
-        Reefer  
+        Reefer,
+        Sprinter
     }
 }
