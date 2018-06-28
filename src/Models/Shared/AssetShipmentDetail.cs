@@ -8,8 +8,8 @@ namespace EDI.Models.Shared
 {        
     public class AssetShipmentDetail
     {        
-        public string TruckNumber { get; set; }
-        public TruckType TruckType { get; set; }
+        public string VehicleNumber { get; set; }
+        public VehicleType VehicleType { get; set; }
         public string TrailerNumber { get; set; }
     }
 }

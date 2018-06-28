@@ -11,6 +11,6 @@ namespace EDI.Models.Shared
     public class BrokeredShipmentDetail
     {
         public string BrokerSCACCode { get; set; }
-        public string BrokerTruckNumber { get; set; } //don't know if this is supported, but we'll leave it in
+        public string BrokerVehicleNumber { get; set; } //don't know if this is supported, but we'll leave it in
     }
 }
