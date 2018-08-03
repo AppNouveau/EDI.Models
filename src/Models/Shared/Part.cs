@@ -20,5 +20,6 @@ namespace EDI.Models.Shared
         public Commodity Commodity { get; set; }
         public string BOL { get; set; }
         public string POD { get; set; }
+        public PackageType PackageType { get; set; }
     }
 }
